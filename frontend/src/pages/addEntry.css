@@ -1,0 +1,32 @@
+.entry-container{
+    margin-top: 5rem;
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+
+}
+.input-bg{
+    background-color: #f3f3f3;
+    color: #dbd5d5;
+    font-size: 0.9rem;
+    height: 2.9rem;
+}
+.custom-btn{
+    padding: 0.6rem;
+    border-radius: 4px;
+    font-size: larger;
+   
+}
+
+
+
+@media only screen and (max-width: 450px){
+  
+    .login-container{
+        margin-top: 2.5rem;
+    }
+    .card-body{
+        padding-left: 1.4rem !important;
+        padding-right: 1.4rem !important;
+    }
+  
+}

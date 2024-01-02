@@ -1,0 +1,59 @@
+
+♦ Project Name: Sales App (part 1)
+
+♦♦♦ Objective : Ceating a User-interface using the tech-stack listed below which will help user 
+to perform general Sales app functionalities as 
+
+a. User Registration
+b. Login
+c. Adding new sales entry
+d. Top 5 sales for today
+e. Total revenue 
+
+While this is only the first part of the project. It contains only the UI of the application and in the 2nd part it would be 
+integrated with its Backend for the functionalities.
+
+♦ Features 
+• Smooth and seamless ReactJS single page application 
+• Mobile friendly  UI and responsive to all screens using bootstrap
+• Use elegent Google fonts makes the UI eye catching
+
+
+
+♦ Structure: 
+It is divided into two parts :
+• Frontend 
+• Backend (node-express server, RESTful APIs and MongoDB database)
+
+------------------------------------------------------------------------------------------------------------------
+♦♦♦ Frontend
+
+♦♦ Tech-stack used:
+
+• ReactJS 
+• Bootstrap        (UI library)
+• react-router-DOM (For UI routing)
+• react-tostify    (For notifications)
+• axios            (For calling APIs)
+• font-awesome     (For icons)
+
+♦♦ The list of frontend pages:
+• Login page 
+• Ragister page
+• Sales entry page
+• Top 5 sales page 
+• Total revenue page
+• Logout (disabled)
+
+♦♦ common component
+♦ Navbar : 
+• The Navbar is common to all the pages 
+• Contains links to several pages
+• At first Sales entry page is rendered by default (home page)
+• responsive: On small screens it changes to a collapsible Nabvar with a toggler button.
+
+♦ Other pages are designed as per the project requirements. Such as the Login page, Ragister page and the Sales entry page
+contains forms for respective tasks, the total revenue page shows only the total revenue of the day while the Top5sales page 
+contains a tables displaying several information about the page. 
+
+
